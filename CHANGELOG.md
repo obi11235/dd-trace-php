@@ -4,11 +4,13 @@ All notable changes to this project will be documented in this file - [read more
 
 ## [Unreleased]
 
+### Added
+- Tracing support from the CLI SAPI #422
+
 ## [0.21.0]
 
 ### Added
 - `dd_trace_forward_call()` to forward the original call from within a tracing closure #284
-- Tracing support from the CLI SAPI #422
 
 ### Fixed
 - `parent::` keyword not honored from a subclass when forwarding a call from a tracing closure #284
